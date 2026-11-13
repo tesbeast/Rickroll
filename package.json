@@ -1,0 +1,12 @@
+{
+  "name": "rickroll-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A QR-code redirect that emails you when its link is opened.",
+  "scripts": {
+    "make-qr": "node scripts/make-qr.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
